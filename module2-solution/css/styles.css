@@ -1,0 +1,121 @@
+
+* 
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.pink
+{
+	background-color: pink;
+	color: black;
+}
+
+.red
+{
+	background-color: red;
+	color: white;
+}
+
+.yellow
+{
+	background-color: yellow;
+	color: black;
+}
+
+.content
+{
+	font-family: Times;
+	font-size: 14pt;
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+h1
+{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+.box
+{
+	background-color: lightgrey;
+	border: 3px solid black;
+}
+
+.innerbox
+{
+   	border: 3px solid black;
+  	width: 120px;
+  	height: 50px;
+  	margin-top: 0px;
+  	padding: 0px;
+  	position: relative;
+  	top: -3px;
+	right: -3px;
+	float: right;
+	text-align: center;
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 18pt;
+	line-height: 2em;
+}
+
+
+/********** Desktop version *********/
+@media (min-width: 992px)
+{
+	.col-lg-4
+	{
+    	float: left;
+    	width: 29.33%;
+   		height: 225px;
+     	padding: 0px;
+ 		margin-left: 2%;
+ 		margin-right: 2%;
+ 	}
+}
+
+
+/********** Tablet version **********/
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.col-md-6
+	{
+    	float: left;
+    	width: 46%;
+   		height: 200px;
+     	padding: 0px;
+ 		margin-left: 2%;
+ 		margin-right: 2%;
+ 		margin-bottom: 30px;
+ 	}
+
+	.col-md-12
+	{
+    	float: left;
+    	width: 96%;
+   		height: 200px;
+     	padding: 0px;
+ 		margin-left: 2%;
+ 		margin-right: 2%;
+ 	}
+}
+
+/********** Mobile version **********/
+@media (max-width: 767px)
+{
+	.col-sm-12
+	{
+    	float: left;
+    	width: 96%;
+   		height: 200px;
+     	padding: 0px;
+ 		margin-left: 2%;
+ 		margin-right: 2%;
+ 		margin-bottom: 30px;
+ 	}
+}
